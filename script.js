@@ -6,7 +6,10 @@ $("#a").on("click", function() {
   $("h3").text("YOUR FUCKIN' ANSWER IS " + answer);
   if (answer <= 100 && answer >= 0 ) {
     $(".response").text("Really? Couldn't figure that shit out on your own, huh?");
-  };
+  };   
+  if (num1 === 69 || num2 ===69) {
+  window.open("https://www.youtube.com/watch?v=UBX8MWYel3s&ab_channel=JeffSandberg");
+};
   setTimeout(function () {
     $("h3").text(" ");
     $(".response").text(" ");
@@ -23,6 +26,7 @@ $("#b").on("click", function() {
   if (subtraction <= 100 && subtraction >= 0 ) {
     $(".response").text("Really? Couldn't figure that shit out on your own, huh?");
   };
+  
   setTimeout(function () {
     $("h3").text(" ");
     $(".response").text(" ");
